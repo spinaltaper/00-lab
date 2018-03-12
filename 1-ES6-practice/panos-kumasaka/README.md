@@ -18,14 +18,12 @@ Follow these instructions carefully and in order.
 12. **Save the code, and do a Git "add" and "commit".**
 13. Answer the following questions:
 
----
+---     
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
-
-(Put your answer here)
-
+const must never be reassigned. Hence the name, const for constant.
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+The documentation was difficult to comprehend initially but once I understood it, it was easy to replace concatenation. I do believe that template will replace concatenation from now on in my code.
